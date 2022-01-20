@@ -3,6 +3,10 @@
  * Device: MKR NB 1500
  * SIM: hologram
  * Firmware:
+ *   AT+GMM
+ *   SARA-R410M-02B
+ *   AT+CGMR
+ *   L0.0.00.00.05.06 [Feb 03 2018 13:00:41]
  *
  * Purpose: POST JSON over SSL to a REST API server
  *
@@ -44,25 +48,28 @@
  * Worked:
  *    Powered by laptop USB
  *    Hard power off/on, i.e. not just uploaded sketch
+ *    Cert Validation: disabled
  *    Adding modem.begin()
  *    Carefully placing client.stop()
- *    10sec, 20 iterations ok
+ *    Result: 10sec, 20 iterations ok
  * Worked:
  *    Powered by laptop USB
  *    Hard power off/on, i.e. not just uploaded sketch
+ *    Cert Validation: disabled
  *    3 min iterations
- *    60x no problems
+ *    Result: 60x no problems
  * Worked:
  *    Powered by laptop USB
  *    Hard power off/on, i.e. not just uploaded sketch
+ *    Cert Validation: disabled
  *    30 min iterations
- *    44x no problems
- * Next:
+ *    Result: 45x no problems
+ * Currently testing:
  *    Powered with 5V 2.5A Pi Power Supply from Canakit
  *    Hard power off/on, i.e. not just uploaded sketch
+ *    Cert Validation: disabled
  *    60 min iterations
- *    Install Let's Encrypt SSL Root Cert
- *
+ *    Result:
  */
 
 #include <Arduino.h>
@@ -76,9 +83,9 @@ const char PINNUMBER[]     = SECRET_PINNUMBER;
 int port = 443;
 
 // Note: 3600000 is 1 hour.  Currently sleeping 1 hour-27 sec
-//int sleeping_ms = 3561000;
+int sleeping_ms = 3561000;
 //int sleeping_ms = 180000; // 3 min
-int sleeping_ms = 1800000; // 30 min
+//int sleeping_ms = 1800000; // 30 min
 
 char server[] = "your.rest.api";
 char path[] = "/your/endpoint/to/post/";

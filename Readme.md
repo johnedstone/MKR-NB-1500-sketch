@@ -20,6 +20,8 @@
              125 //MODEM.send("AT+USECPRF=0,0,1");
              126  MODEM.sendf("AT+USECPRF=0");
              ```
+     * Currently:
+         * Testing 60 min iterations.  See comments in sketch for previous tests
 
 <!---
 # vim: ai et ts=4 sw=4 sts=4 nu
