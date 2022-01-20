@@ -2,6 +2,12 @@
 * SIM: Hologram
 * Device: MKR NB 1500
 * Firmware:
+```
+  AT+GMM
+  SARA-R410M-02B
+  AT+CGMR
+  L0.0.00.00.05.06 [Feb 03 2018 13:00:41]
+```
 
 ### Sketches
 * NBWebClient_hourly_SSL_Post
