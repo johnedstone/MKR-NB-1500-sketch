@@ -1,9 +1,3 @@
-### To Do
-* Move [NBWebClient_hourly_SSL_Post sketch](https://github.com/johnedstone/mkrgsm1400-post-json-ssl/tree/main/NBWebClient_hourly_SSL_Post) into this repository
-* SIM: Hologram
-* Device: MKR NB 1500
-* Firmware:
-
 ### Notes
 * SIM: Hologram
 * Device: MKR NB 1500
