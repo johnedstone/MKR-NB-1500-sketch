@@ -17,11 +17,11 @@
      * Library modifications:
          * First: remove libraries/MKRNB and\
          replace with libraries/MKRNB-master from https://github.com/arduino-libraries/MKRNB
-         * Second: update libraries/MKRNB-master/src/Modem.cpp and\
+         * Second: update libraries/MKRNB-master/src/Modem.cpp\
          as noted at https://forum.arduino.cc/t/mkr-1500-nb-hangs-on-nbaccess-begin/636736\
          proposed by hakondahle update `int ModemClass::begin(bool restart)` and `void ModemClass::end()`
          * Third (optionally): while waiting on modem firmware updating and/or getting Root certs loaded disable cert validation:
-             *See this file: libraries/MKRNB-master/src/NBClient.cpp
+             * See this file: libraries/MKRNB-master/src/NBClient.cpp
              ```
              125 //MODEM.send("AT+USECPRF=0,0,1");
              126  MODEM.sendf("AT+USECPRF=0");
