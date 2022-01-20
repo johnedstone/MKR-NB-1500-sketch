@@ -5,7 +5,7 @@
 
 ### Sketches
 * NBWebClient_hourly_SSL_Post
-     * Purpose: Do a POST with JSON data to a REST API (in this case, [Django Rest Framework](https://www.django-rest-framework.org/)
+     * Purpose: Do a POST with JSON data to a REST API (in this case, [Django Rest Framework](https://www.django-rest-framework.org/))
      * Development based on these sketches: 
          * libraries/MKRNB/examples/NBSSLWebClient
          * [GSMWebClient_hourly_SSL_Post](https://github.com/johnedstone/mkrgsm1400-post-json-ssl)
