@@ -64,12 +64,12 @@
  *    Cert Validation: disabled
  *    30 min iterations
  *    Result: 45x no problems
- * Currently testing:
+ * Currently running successfully:
  *    Powered with 5V 2.5A Pi Power Supply from Canakit
  *    Hard power off/on, i.e. not just uploaded sketch
  *    Cert Validation: disabled
  *    60 min iterations
- *    Result:
+ *    Result: Running > 1 day
  */
 
 #include <Arduino.h>
