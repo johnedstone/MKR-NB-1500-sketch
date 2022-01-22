@@ -27,8 +27,9 @@
              125 //MODEM.send("AT+USECPRF=0,0,1");
              126  MODEM.sendf("AT+USECPRF=0");
              ```
-     * Currently:
-         * Running successfully with 60 min iterations.  See comments in sketch for previous tests
+     * Still problems (with 60 min interval):
+         * Result: "uptime": "uptime: 1d 20:50:48 or 161448s" before no longer posting 
+         * Testing new sketch (will release if successful): NBWebClient_hourly_SSL_Post_retro
 
 <!---
 # vim: ai et ts=4 sw=4 sts=4 nu
