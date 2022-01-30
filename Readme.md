@@ -10,11 +10,11 @@
 ```
 
 ### Sketches
-* NBWebClient_hourly_SSL_Post
+* NBWebClient_hourly_SSL_Post_retro
      * Purpose: Do a POST with JSON data to a REST API (in this case, [Django Rest Framework](https://www.django-rest-framework.org/))
      * Development based on these sketches: 
          * libraries/MKRNB/examples/NBSSLWebClient
-         * [GSMWebClient_hourly_SSL_Post](https://github.com/johnedstone/mkrgsm1400-post-json-ssl)
+         * [GSMWebClient_hourly_SSL_Post_with_Validation_Not](https://github.com/johnedstone/mkrgsm1400-post-json-ssl/archive)
      * Library modifications:
          * First: remove libraries/MKRNB and\
          replace with libraries/MKRNB-master from https://github.com/arduino-libraries/MKRNB
@@ -27,10 +27,6 @@
              125 //MODEM.send("AT+USECPRF=0,0,1");
              126  MODEM.sendf("AT+USECPRF=0");
              ```
-     * Still problems (with 60 min interval):
-         * Result: "uptime": "uptime: 1d 20:50:48 or 161448s" before no longer posting 
-         * Testing new sketch (will release if successful): NBWebClient_hourly_SSL_Post_retro
-
 <!---
 # vim: ai et ts=4 sw=4 sts=4 nu
 ->
