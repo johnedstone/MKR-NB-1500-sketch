@@ -15,7 +15,7 @@
      * Development based on these sketches: 
          * libraries/MKRNB/examples/NBSSLWebClient
          * [GSMWebClient_hourly_SSL_Post](https://github.com/johnedstone/mkrgsm1400-post-json-ssl)
-         * [GSMWebClient_hourly_SSL_Post_with_Validation_Not](https://github.com/johnedstone/mkrgsm1400-post-json-ssl/archive)
+         * [GSMWebClient_hourly_SSL_Post_with_Validation_Not](https://github.com/johnedstone/mkrgsm1400-post-json-ssl/tree/main/archive)
      * Library modifications:
          * First: remove libraries/MKRNB and\
          replace with libraries/MKRNB-master from https://github.com/arduino-libraries/MKRNB
