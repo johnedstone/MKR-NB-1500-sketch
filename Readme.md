@@ -14,6 +14,7 @@
      * Purpose: Do a POST with JSON data to a REST API (in this case, [Django Rest Framework](https://www.django-rest-framework.org/))
      * Development based on these sketches: 
          * libraries/MKRNB/examples/NBSSLWebClient
+         * [GSMWebClient_hourly_SSL_Post](https://github.com/johnedstone/mkrgsm1400-post-json-ssl)
          * [GSMWebClient_hourly_SSL_Post_with_Validation_Not](https://github.com/johnedstone/mkrgsm1400-post-json-ssl/archive)
      * Library modifications:
          * First: remove libraries/MKRNB and\

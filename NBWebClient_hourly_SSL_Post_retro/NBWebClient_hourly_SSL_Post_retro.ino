@@ -12,7 +12,7 @@
  *
  * Development based on these sketches: 
  *  - libraries/MKRNB/examples/NBSSLWebClient
- *  - GSMWebClient_hourly_SSL_Post (https://github.com/johnedstone/mkrgsm1400-post-json-ssl)
+ *  - GSMWebClient_hourly_SSL_Post (https://github.com/johnedstone/mkrgsm1400-post-json-ssl/tree/main/archive)
  *
  * Several library modification needed
  *   First: remove libraries/MKRNB and
