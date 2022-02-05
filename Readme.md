@@ -1,3 +1,13 @@
+### Currently
+* MKR NB 1500 stopped reporting after "uptime: 8d 23:33:41 or 776021s"
+* Streming unrecoginizable characters
+* led Red on as usual
+* led orange blinking as usual
+
+#### Next
+* upgrade firmware
+* see if library, even lastes works, w/o 1st and 2nd modifications below
+
 ### Notes
 * SIM: Hologram
 * Device: MKR NB 1500
