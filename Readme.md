@@ -4,9 +4,11 @@
 * led Red on as usual
 * led orange blinking as usual
 
-#### Next
-* upgrade firmware
-* see if library, even lastes works, w/o 1st and 2nd modifications below
+### Abandoning in favor of Gpy board from Pycom.io for LTE
+* Abandoning this Board - to upgrade firmware, there is no pwr button,
+and one has to solder the USB connection.  As others have documented,
+this board is too unstable and difficult to upgrade to be useful in production.
+* Turning my attention to the GPy board from Pycom.io for LTE
 
 ### Notes
 * SIM: Hologram
